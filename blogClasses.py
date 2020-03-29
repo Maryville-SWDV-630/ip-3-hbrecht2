@@ -57,7 +57,7 @@ def main():
     author.createBlogPost()
     author.deleteBlogPost()
     
-    blogReader = reader("reader1", "pass2")
+    blogReader = reader("reader1", "pass2", "4040")
     blogReader.verifyLogin()
     blogReader.addComment()
     blogReader.addBlogToYourList()
